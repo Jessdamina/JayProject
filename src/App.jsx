@@ -9,6 +9,7 @@ import Blog from './Components/Blog.jsx'
 import Whatido from './Components/Whatido.jsx'
 import Happyclient from './Components/Happyclient.jsx'
 import Newsletters from './Components/Newsletters.jsx'
+import Footer from './Components/Footer.jsx'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Whatido />
       <Happyclient />
       <Newsletters />
+      <Footer />
     </div>
   )
 }
