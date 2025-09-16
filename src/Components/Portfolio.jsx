@@ -4,7 +4,7 @@ import {Button} from "./Button";
 function Portfolio() {
     return (
         <section class='w-100vw h-100vh content-center pt-5 relative'>
-            <div class='max-w-210 relative justify-center items-center m-auto'>
+            <div class='max-w-210  pb-10 relative justify-center items-center m-auto'>
                 <h1 class='font-bold pb-4 text-4xl text-center text-purple-500'>Portfolio</h1>
                 <div class='text-center text-sm pb-5'>
                     <p class='max-w-140 m-auto'>
@@ -16,7 +16,7 @@ function Portfolio() {
                 </div>
                 <div>
                     <div class='flex gap-3 pt-5'>
-                        <Portfoliocard
+                        <Portfoliocard arrange
                             imagesrc="mieducation.png" 
                             category="E-commerce website"
                             title="Mieducationng"
@@ -30,7 +30,7 @@ function Portfolio() {
                             description="An e-commerce platform offering a seamless ready-to-wear shopping experience."
                             buttonTitle="Case Study"
                         />
-                        <Portfoliocard 
+                        <Portfoliocard  
                             imagesrc="./latoy.png" 
                             category="Social media page" 
                             title="Latoy Catering Service" 

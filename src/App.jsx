@@ -4,6 +4,11 @@ import Hero from './Components/Hero.jsx'
 import Hero2 from './Components/Hero2.jsx'
 import Workprocess from './Components/Workprocess.jsx'
 import Portfolio from './Components/Portfolio.jsx'
+import Worktogether from './Components/Worktogether.jsx'
+import Blog from './Components/Blog.jsx'
+import Whatido from './Components/Whatido.jsx'
+import Happyclient from './Components/Happyclient.jsx'
+import Newsletters from './Components/Newsletters.jsx'
 
 function App() {
   return (
@@ -13,6 +18,11 @@ function App() {
       <Hero2 />
       <Workprocess />
       <Portfolio />
+      <Worktogether />
+      <Blog />
+      <Whatido />
+      <Happyclient />
+      <Newsletters />
     </div>
   )
 }

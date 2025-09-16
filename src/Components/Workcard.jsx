@@ -1,7 +1,7 @@
 // Workcard Component
 export const Workcard = ({ imagesrc, title, description, backgroundColor }) => {
     return (
-        <div class='bg-gray-900 h-45 pt-4 pb-4 pl-4 rounded-md'>
+        <div class='bg-gray-900 h-45 pt-4 pb-4 pl-4 rounded-md shadow-md shadow-purple-900 hover:scale-105'>
             <div class={`w-10 h-10 p-1`} style={{backgroundColor}}>
                 <img src={imagesrc} alt="Work process image"/>
             </div>

@@ -5,7 +5,7 @@ import { Downloadbutton } from './Downloadbutton';
 function Hero2() {
     return (
         <section class='w-100vw h-100vh pt-8 bg-gray-900'>
-            <div class='flex gap-25 pr-20 bg-gray-700 max-w-250 relative z-1 rounded-r-sm h-120 pb-5'> 
+            <div class='flex gap-25 pr-20 bg-gray-700 max-w-250 shadow-md shadow-gray-900 relative z-1 rounded-r-sm h-120 pb-5'> 
                 <div class='pt-15 pl-25'> 
                     <img src="./hero1.jpg" alt="hero2-image" class='w-70 h-90 object-cover rounded-md'/>
                     <div class='flex top-100 left-40 max-w-fit items-center absolute gap-3 rounded-sm bg-amber-50 p-2'>

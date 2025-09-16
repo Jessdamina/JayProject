@@ -1,4 +1,5 @@
 // header section
+import './Header'
 function Header() {
     return (
         <header class='bg-gray-900 p-0 m-0'>
@@ -10,7 +11,8 @@ function Header() {
                 {/* Menu */}
                 <nav class='pt-5'>
                     <ul class='flex gap-5'>
-                        <li class='text-purple-500 font-bold hover:bg-purple-500 hover:text-gray-900'>Home</li>
+                        {/* <li className='text-purple-500 hover:bg-amber-900 cursor-pointer'>Test run</li> */}
+                        <li class='text-purple-500 font-bold bg-transparent hover:bg-purple-500 hover:text-gray-900'>Home</li>
                         <li class='text-purple-500 font-bold hover:bg-purple-500 hover:text-gray-900'>About</li>
                         <li class='text-purple-500 font-bold hover:bg-purple-500 hover:text-gray-900'>Services</li>
                         <li class='text-purple-500 font-bold hover:bg-purple-500 hover:text-gray-900'>Portfolio</li>
@@ -20,6 +22,7 @@ function Header() {
                 </nav>
             </div>
         </header>
+        // <h1 className='text-blue-600 hover:text-green-700'>Testing</h1>
     )
 }
 export default Header;
